@@ -1,7 +1,7 @@
 {
-  "name": "@segment/cookie",
+  "name": "@head.js/analytics.js-cookie",
   "description": "Tiny cookie component",
-  "version": "1.2.0",
+  "version": "1.2.0-1",
   "license": "MIT",
   "main": "lib/index.js",
   "files": [

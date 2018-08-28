@@ -1,32 +1,6 @@
-# cookie
+[@segment/cookie](https://github.com/segmentio/cookie)
+==
 
-  Cookie component.
+This project follows the `package.json/version` convention. But will not be published to `npmjs.org`.
 
-## Installation
-
-    $ npm install @segment/cookie
-
-## Example
-
-```js
-// set
-cookie('name', 'tobi')
-cookie('name', 'tobi', { path: '/' })
-cookie('name', 'tobi', { maxage: 60000 }) // in milliseconds
-cookie('species', 'ferret')
-
-// get
-var name = cookie('name')
-// => "tobi"
-
-var cookies = cookie()
-// => { name: "tobi", species: "ferret" }
-
-// clear
-cookie('name', null)
-```
-
-## License
-
-Released under the [MIT license](LICENSE).
-
+See [@head/h5a](https://github.com/head-js/h5a) for a production ready solution.
